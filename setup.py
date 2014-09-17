@@ -5,8 +5,8 @@ import io
 import platform
 import warnings
 
-from ez_setup import use_setuptools
-use_setuptools()
+#from ez_setup import use_setuptools
+#use_setuptools()
 from setuptools import setup, Extension, find_packages
 
 # Check Python packages.
@@ -25,7 +25,7 @@ setup(
         version='0.0.2',
 
         packages = find_packages(),
-        
+
         # include_package_data = True,
 
         # Specify C/C++ file paths. They will be compiled and put into tomopy.lib:
